@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+
+# Data (keep small samples only; raw/large data stays local)
+data/*
+!data/.gitkeep
+
+# OS
+.DS_Store
+
+# Generated outputs (regenerate by re-running the notebook cell)
+candlestick_chart.html
