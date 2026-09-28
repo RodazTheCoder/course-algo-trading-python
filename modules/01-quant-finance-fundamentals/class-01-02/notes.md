@@ -1,7 +1,7 @@
-# Class 02 — Notes
+# Class 01-02 — Notes
 
 **Date:** 2026-08-26
-**Topic:** Precios vs. Retornos — parte 2 de 2, continúa de class-01 _(comenzamos desde el punto 11 del notebook)_
+**Topic:** Introducción al trading algorítmico, Python básico, precios vs. retornos, SMA y estrategias — el profesor compartió un solo notebook (`Sesion1_2.ipynb`) para estas dos sesiones.
 
 ## Key concepts
 
@@ -28,8 +28,6 @@
   **R:** En el mercado se usan servicios corporativos, donde se compran datos.
 - ~~Revisar la sección 15, entender mejor el rendimiento de estrategias~~ — resuelto: diferencia entre retorno diario (`Strategy_Return`) y retorno acumulado (`cumprod`), y por qué se usa `.shift(1)` para evitar look-ahead bias.
 
-
 ## Resources
 - Slides and images: see `resources/`
-- Shared notebook (sesiones 1 y 2): `../resources/Sesion1_2.ipynb`
-
+- Notebook de la clase: `Sesion1_2.ipynb`

@@ -14,20 +14,23 @@ Topics announced for this module (from the course syllabus, mapped to sessions a
 
 | Class | Topic                                    | Status |
 |-------|-------------------------------------------|--------|
-| 01    | Intro to algo trading, Python basics       | ✅     |
-| 02    | Precios vs. retornos, SMA, señales, estrategia | ✅     |
+| 01-02 | Intro to algo trading, Python basics, precios vs. retornos, SMA, señales, estrategia | ✅     |
 | 03    |                        | ⬜     |
 | 04    |                        | ⬜     |
-| 05    |                        | ⬜     |
-| 06    |                        | ⬜     |
+| 05    | Series de tiempo: ADF/KPSS, ACF/PACF, ARIMA/ARIMAX | ✅     |
+| 06    | Caso aplicado: CAPM a ARIMAX con empresa relacionada | 🔄     |
 | 07    |                        | ⬜     |
 | 08    |                        | ⬜     |
 
-Legend: ✅ done · 🔄 in progress · ⬜ not started
+Legend: ✅ done · 🔄 in progress · ⬜ not started (⬜ can also mean the class happened but no material/notes were captured for it)
 
 ## Structure
 
 Each `class-XX/` folder contains:
-- `resources/` — slides/PDF shared by the instructor for that session
+- `resources/` — slides/PDF/images shared by the instructor for that session
 - `notes.md` — my notes
 - code (`.ipynb` and/or `.py`, added as needed)
+
+When two or more consecutive sessions share the same instructor notebook, they're combined into a
+single `class-XX-YY/` folder (e.g. `class-01-02/`) instead of duplicating the file across separate
+class folders.

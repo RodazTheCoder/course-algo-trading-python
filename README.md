@@ -20,7 +20,9 @@ The program follows three complementary stages:
 
 Each module folder has its own README with a per-class progress checklist. Each
 `class-XX/` folder holds the instructor's slides (`resources/`), my notes (`notes.md`),
-and any code for that session.
+and any code for that session. When consecutive sessions share the same instructor
+notebook, they're merged into one `class-XX-YY/` folder instead of duplicating it
+(e.g. `class-01-02/`).
 
 ```
 modules/
@@ -39,7 +41,7 @@ polished work — like the Module 3 capstone strategy — graduates into [`proje
 
 ## Progress
 
-- [x] Module 1 — Quantitative Finance Fundamentals & Python (in progress: class 2/8)
+- [ ] Module 1 — Quantitative Finance Fundamentals & Python (in progress: class 6/8)
 - [ ] Module 2 — Quantitative Modeling & Machine Learning
 - [ ] Module 3 — Algorithmic Trading & Backtesting
 
