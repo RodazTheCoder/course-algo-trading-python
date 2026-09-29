@@ -20,3 +20,4 @@ data/*
 
 # Generated outputs (regenerate by re-running the notebook cell)
 candlestick_chart.html
+apple.xlsx
